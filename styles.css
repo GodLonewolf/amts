@@ -19,7 +19,7 @@ body {
 }
 .nav>div:nth-child(2) {
     width: 100px;
-    height: 70px;
+    height: 25px;
     margin: auto 0;
     background-image: url(assets/paytm.png);
     background-repeat: no-repeat;
