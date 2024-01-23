@@ -1,6 +1,15 @@
+:root {
+    --blue1: #ddf6ff;
+    --blue2: #21abd9;
+    --blue3: #022a72;
+}
+
 body {
     margin: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
 }
 
 .nav {
@@ -12,7 +21,7 @@ body {
     width: 15px;
     height: 20px;
     margin: auto 0;
-    background-image: url(assets/back.png);
+    background-image: url(assets/back.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -30,5 +39,111 @@ body {
     font-size: 14px;
     margin: auto 0;
     font-weight: bold; 
-    color: #02b9ef;
+    color: var(--blue2);
+}
+
+
+.blue-container {
+    width: 100%;
+    border-radius: 5px;
+    background: var(--blue1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+.amts {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    background-image: url(/assets/amts.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.manpasand {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.adult {
+    font-size: 12px;
+}
+
+.user {
+    width: 65px;
+    height: 40px;
+    background-image: url(/assets/user.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.price {
+    display: flex;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.green-tick {
+    height: 45px;
+    width: 45px;
+    background-image: url(/assets/green-tick.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+}
+
+.pass-booked {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: -10px;
+}
+
+.date {
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    margin-top: 10px;
+}
+
+.line {
+    height: 1.2px;
+    width: 90%;
+    background-image: url(/assets/dash.png);
+    background-size: auto 100%;
+}
+
+.countdown-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.pass-valid-for {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.timer {
+    padding-top: 20px;
+    display: flex;
+    gap: 8px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.timer-details {
+    display: flex;
+    gap: 15px;
+    font-size: 10px;
+    font-weight: 500;
+    margin-right: -15px;
 }
