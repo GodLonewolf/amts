@@ -138,7 +138,7 @@ body {
 
 .timer {
     position: absolute;
-    left: 90px;
+    left: 100px;
     top: 40px;
     padding-top: 22px;
     display: flex;
