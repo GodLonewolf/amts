@@ -17,6 +17,11 @@ function exitFullscreen() {
     document.exitFullscreen?.();
 }
 
+
+const currentDate = new Date();
+const date = currentDate.getDate();
+document.getElementById("date").innerHTML = date;
+
 // Function to update the countdown
 function updateCountdown() {
     var now = new Date();
