@@ -20,7 +20,12 @@ function exitFullscreen() {
 
 const currentDate = new Date();
 const date = currentDate.getDate();
+const month = currentDate.getMonth();
+const year = currentDate.getFullYear();
+const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 document.getElementById("date").innerHTML = date;
+document.getElementById("month").innerHTML = months[month];
+document.getElementById("year").innerHTML = year;
 
 // Function to update the countdown
 function updateCountdown() {
