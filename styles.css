@@ -203,7 +203,7 @@ body {
     border: 1px solid #d9d9d9;
     margin-top: 30px;
     border-radius: 5px;
-    gap: 30px;
+    gap: 35px;
 }
 
 .heading-trip {
@@ -227,6 +227,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    margin-top: 18px;
 }
 
 .order {
