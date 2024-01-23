@@ -50,13 +50,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 16px;
     padding-top: 20px;
 }
 
 .amts {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     background-color: #fff;
     background-image: url(/assets/amts.png);
@@ -66,17 +66,17 @@ body {
 }
 
 .manpasand {
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 800;
 }
 
 .adult {
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .user {
-    width: 65px;
-    height: 40px;
+    width: 75px;
+    height: 46px;
     background-image: url(/assets/user.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -84,13 +84,14 @@ body {
 
 .price {
     display: flex;
-    font-size: 40px;
+    gap: 5px;
+    font-size: 43px;
     font-weight: 700;
 }
 
 .green-tick {
-    height: 45px;
-    width: 45px;
+    height: 50px;
+    width: 50px;
     background-image: url(/assets/green-tick.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -98,16 +99,16 @@ body {
 }
 
 .pass-booked {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     letter-spacing: 1px;
     margin-top: -10px;
 }
 
 .date {
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 500;
-    letter-spacing: 0.8px;
+    letter-spacing: 0.2px;
     margin-top: 10px;
 }
 
@@ -122,10 +123,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 75%;
+    width: 78%;
     background: #fff;
-    border-radius: 5px;
-    padding: 20px;
+    border-radius: 15px;
+    padding: 15px;
 }
 
 .pass-valid-for {
@@ -146,4 +147,40 @@ body {
     font-size: 10px;
     font-weight: 500;
     margin-right: -15px;
+}
+
+.view-pass {
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 700;
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blue2);
+    border-radius: 7px;
+}
+
+.rects {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.last-2nd {
+    height: 5px;
+    width: 100%;
+    background-color: var(--blue2);
+}
+
+.last {
+    height: 5px;
+    width: 100%;
+    background-color: var(--blue3);
+    border-radius: 0 0 5px 5px;
 }
