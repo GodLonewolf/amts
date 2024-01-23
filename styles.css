@@ -114,9 +114,10 @@ body {
 
 .line {
     height: 1.2px;
-    width: 90%;
+    width: 100%;
     background-image: url(/assets/dash.png);
     background-size: auto 100%;
+    margin: auto;
 }
 
 .countdown-box {
@@ -200,7 +201,7 @@ body {
     flex-direction: column;
     padding: 15px;
     padding-top: 40px;
-    border: 1px solid #d9d9d9;
+    border: 2px solid #d9d9d9;
     margin-top: 30px;
     border-radius: 5px;
     gap: 35px;
@@ -220,6 +221,7 @@ body {
 }
 
 .operator-title {
+    font-size: 13px;
     color: #b0b0b0;
 }
 
@@ -235,7 +237,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
     margin-bottom: 10px;
 }
@@ -243,4 +245,32 @@ body {
 .order-support {
     font-size: 12px;
     font-weight: 400;
+}
+
+.payment {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    padding-top: 25px;
+    border: 2px solid #d9d9d9;
+    margin-top: 30px;
+    border-radius: 5px;
+    gap: 23px;
+}
+
+.heading-payment {
+    font-weight: 600;
+}
+
+.tickets {
+    display: flex;
+    font-size: 13px;
+    font-weight: 500;
+    justify-content: space-between;
+}
+
+.final-payment-div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
