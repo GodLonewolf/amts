@@ -121,7 +121,6 @@ body {
 }
 
 .countdown-box {
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -138,9 +137,6 @@ body {
 }
 
 .timer {
-    position: absolute;
-    left: 85px;
-    top: 40px;
     padding-top: 22px;
     display: flex;
     gap: 8px;
