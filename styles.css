@@ -157,7 +157,7 @@ body {
 }
 
 .timer>div:nth-child(odd) {
-    width:30px;
+    width:40px;
 background:red;
 }
 
