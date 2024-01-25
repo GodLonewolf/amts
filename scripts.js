@@ -1,3 +1,13 @@
+n = n ? n : 1;
+var prices = document.getElementsByClassName("multi-price");
+for (var i = 0, len = prices.length; i < len; i++) {
+    prices[i].innerHTML = n*45;
+}
+var amounts = document.getElementsByClassName("amounts");
+for (var i = 0, len = amounts.length; i < len; i++) {
+    amounts[i].innerHTML = n;
+}
+document.querySelector(".user").style.backgroundImage = `url(../assets/${n}.png)`;
 
 const btn = document.getElementById('fullscreen-btn');
 
