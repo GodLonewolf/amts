@@ -157,8 +157,7 @@ body {
 }
 
 .timer>div:nth-child(odd) {
-    width:40px;
-background:red;
+    width:37px;
 }
 
 .view-pass {
