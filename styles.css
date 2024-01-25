@@ -159,6 +159,9 @@ body {
 .timer>div:nth-child(odd) {
     width:37px;
 }
+.timer>div:nth-child(1) {
+    width:30px;
+}
 
 .view-pass {
     margin-top: 30px;
