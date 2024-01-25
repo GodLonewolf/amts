@@ -146,12 +146,17 @@ body {
 .colon {
     font-weight: 300;
 }
+
 .timer-details {
     display: flex;
     gap: 15px;
     font-size: 11px;
     font-weight: 500;
     margin-right: -15px;
+}
+
+.timer>div:nth-child(odd) {
+    background: red;
 }
 
 .view-pass {
