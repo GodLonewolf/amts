@@ -160,7 +160,7 @@ body {
     width:37px;
 }
 .timer>div:nth-child(1) {
-    width:30px;
+    text-align:right;
 }
 
 .view-pass {
