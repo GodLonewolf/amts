@@ -149,6 +149,7 @@ body {
 
 .timer-details {
     display: flex;
+    justify-content:center;
     gap: 15px;
     font-size: 11px;
     font-weight: 500;
